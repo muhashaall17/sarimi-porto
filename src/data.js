@@ -27,7 +27,7 @@ export const teamData = [
   },
   {
     id: "zaidan",
-    name: "Nama Anggota 3",
+    name: "Muhammad zaidan Azhari",
     role: "Backend Developer",
     photo: fotoDummy,
     education: "Teknik Informatika, UNIKOM",
