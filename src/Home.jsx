@@ -70,17 +70,19 @@ export default function Home() {
             {/* --- KANVAS MODAL --- */}
             {/* Modal hanya muncul jika activeModal tidak null */}
             {activeModal && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-10 bg-slate-950/60 backdrop-blur-sm transition-opacity">
+                <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-10 bg-slate-950/60 backdrop-blur-sm animate-backdrop">
 
                     {/* Kotak Modal */}
-                    <div className="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto relative shadow-[0_0_50px_rgba(34,211,238,0.1)] custom-scrollbar">
+                    <div className="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto relative shadow-[0_0_50px_rgba(34,211,238,0.1)] custom-scrollbar animate-modal">
 
                         {/* Tombol Close di pojok kanan atas modal */}
                         <button
                             onClick={() => setActiveModal(null)}
                             className="sticky top-4 right-4 float-right bg-slate-800 text-slate-400 hover:text-fuchsia-400 hover:bg-slate-700 w-10 h-10 rounded-full flex items-center justify-center transition-colors z-10"
                         >
-                            ✕
+                            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
                         </button>
 
                         {/* Area Konten CV */}
