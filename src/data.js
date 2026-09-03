@@ -95,15 +95,59 @@ export const teamData = [
     ],
   },
   {
-    id: "zaidan",
-    name: "Muhammad zaidan Azhari",
-    role: "Full Stack",
-    photo: fotoDummy,
-    education: "Teknik Informatika, UNIKOM",
-    experience: [
-      "Implementasi Hadoop, HDFS, dan MapReduce Pipeline",
-      "Pengembangan sistem arsitektur Laravel",
+    id: "zaidan", 
+    name: "Muhammad Zaidan Azhari",
+    ig: "mzaidanazharii",
+    linkedin: "https://www.linkedin.com/in/muhammad-zaidan-azhari-42b812380?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    github: "https://github.com/mzaidanazhari",
+    email: "mzaidanazhari@gmail.com",
+    role: "Frontend Developer", 
+    about: "Mahasiswa Teknik Informatika di Universitas Komputer Indonesia (UNIKOM) dengan minat besar pada pengembangan perangkat lunak dan teknologi digital. Memiliki rasa ingin tahu yang tinggi, saya selalu terdorong untuk mengeksplorasi hal-hal baru, mendalami teknologi terkini, dan terus mengasah keterampilan teknis maupun nonteknis melalui berbagai proyek praktis. Bagi saya, proses belajar yang konsisten dan kemampuan beradaptasi adalah kunci utama untuk menciptakan solusi teknologi yang bermanfaat dan relevan dengan kebutuhan industri.",
+    photo: fotoDummy, 
+    
+    // Riwayat Pendidikan
+    edu: [
+      "Teknik Informatika, Universitas Komputer Indonesia",
     ],
-    documents: "CV, KTP, Transkrip Nilai (Lengkap)",
-  },
+    edu_period: ["2023-Sekarang"],
+    
+    // Organisasi
+    org: [
+      "Anggota Divisi Sosial dan Keagamaan HMIF UNIKOM",
+      "Anggota Divisi Sosial dan Keagamaan HMIF UNIKOM",
+    ],
+    org_period: ["2024-2025", "2025-Sekarang"],
+    
+    // Pengalaman Pelatihan & Studi Independen
+    exp: [
+      "CodingCamp Powered by DBS Foundation (Studi Independen)",
+    ],
+    exp_period: ["2026"],
+    exp_desc: [
+      "Mengikuti program beasiswa intensif pada alur belajar Full-Stack Web Developer. Mempelajari arsitektur web modern dari sisi frontend hingga backend, integrasi API, basis data, serta pembekalan soft skills dan literasi finansial. Program diakhiri dengan pengerjaan Capstone Project berupa pengembangan aplikasi web end-to-end secara kolaboratif sesuai standar kesiapan kerja industri.",
+    ],
+    exp_tech: [
+      "React + Vite Web App, Tailwind css, React Router, Chart JS",
+      "Node JS, Express JS, MySQL, Prisma ORM",
+    ],
+    
+    // Proyek Portofolio
+    proj: [
+      "AMATI",
+    ],
+    proj_desc: [
+      "AMATI, singkatan dari Adaptive Mathematics Analysis & Teaching Interactive, adalah sebuah platform pembelajaran adaptif berbasis web yang dirancang khusus untuk mata pelajaran Matematika siswa kelas 7 SMP. Berbeda dengan platform biasa yang bersifat statis, AMATI memanfaatkan AI untuk mengevaluasi riwayat belajar siswa secara longitudinal untuk mendeteksi kelemahan spesifik mereka. Dari data tersebut, sistem akan menyusun peta jalan belajar prasyarat yang sepenuhnya personal bagi masing-masing siswa.",
+    ],
+    proj_tech: [
+      "Front End : React + Vite Web App, Tailwind css, React Router, Chart JS",
+      "Back End : Node JS, Express JS, MySQL, Prisma ORM",
+    ],
+    
+    // Keahlian / Skill
+    skill: [
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+    ],
+  }
 ];
