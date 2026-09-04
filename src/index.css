@@ -33,3 +33,26 @@
 .animate-modal {
   animation: modalPopUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
+
+/* --- Modern Custom Scrollbar --- */
+/* Lebar scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Warna background jalur (track) scrollbar */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+/* Warna dan bentuk gagang (thumb) scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #334155;
+  border-radius: 10px;
+}
+
+/* Efek saat scrollbar di-hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #06b6d4;
+}

@@ -1,17 +1,73 @@
-import fotoDummy from "./assets/dummy.jpg";
+import foto from "./assets/dummy.jpg";
+import fotoAgi from "./assets/pp-agi.jpg";
+import fotoIsal from "./assets/pp-isal.jpg";
+import fotoZai from "./assets/pp-zai.jpg";
 
 export const teamData = [
   {
     id: "agi",
-    name: "Nama Kamu (Ketua)",
-    role: "Frontend Developer",
-    photo: fotoDummy,
-    education: "Teknik Informatika, UNIKOM",
-    experience: [
-      "Pengurus Himpunan Mahasiswa Informatika (HMIF)",
-      "Membangun Web Movie App terintegrasi OMDb API dengan React & Vite",
+    name: "Dwi Putra Juniargi",
+    ig: "agii_____",
+    linkedin: "https://www.linkedin.com/in/dwi-putra-juniargi-a67bba402/",
+    github: "https://github.com/AgiJuniargi",
+    email: "juniargid@gmail.com",
+    role: "Full Stack Developer",
+    about:
+      "Mahasiswa Teknik Informatika Universitas Komputer Indonesia (UNIKOM) yang memiliki minat di bidang pengembangan web. Saat ini saya sedang menikmati proses belajar membuat desain UI/UX yang menarik, sekaligus terus mengeksplorasi teknologi untuk membangun website secara full-stack.",
+    photo: fotoAgi,
+    edu: [
+      "Rekayasa Perangkat Lunak, SMK Merdeka Bandung",
+      "Teknik Informatika, Universitas Komputer Indonesia",
     ],
-    documents: "CV, KTP, Transkrip Nilai (Lengkap)",
+    edu_period: ["2020-2023", "2023-Sekarang"],
+    org: [
+      "Anggota Divisi Kesejahteraan Mahasiswa HMIF UNIKOM",
+      "Kepala Divisi Kesejahteraan Mahasiswa HMIF UNIKOM",
+    ],
+    org_period: ["2024-2025", "2025-Sekarang"],
+    exp: [
+      "PT. Zabran Internasional Grup",
+      "PT. Ideotekno Digital System",
+    ],
+    exp_period: ["2021", "2022"],
+    exp_desc: [
+      "Magang di bawah PT. Zabran Internasional Grup dengan penempatan bergantian di Importir Laptop dan Republic Laptop. Fokus utama saya adalah memastikan kualitas laptop (QC) sudah siap jual. Di luar itu, saya juga ditugaskan membantu tim kreatif dengan mendesain konten Instagram dan membuat artikel agar toko lebih dikenal.",
+      "Merombak template web yang tadinya statis menjadi dinamis menggunakan CodeIgniter, sehingga kodenya jauh lebih ringkas dan rapi. Serta bekerja dalam tim sebagai Full Stack Developer untuk mengembangkan sebuah project berbasis Laravel. Menggunakan Bootstrap untuk tampilannya, serta memakai Postman untuk keperluan testing API.",
+    ],
+    exp_tech: [
+      "Hardware QC, Canva, Copywriting",
+      "MySQL, CodeIgniter, Laravel, Bootstrap, Postman",
+    ],
+    proj: [
+      "KARAT - Kasir Akurat",
+    ],
+    proj_desc: [
+      "Membangun aplikasi Point of Sales (POS) dari tahap awal hingga akhir. Mulai dari merancang UI/UX menggunakan Figma, hingga tahap implementasi dan pengelolaan database menggunakan PHP Native, MySQL, dan Bootstrap. Aplikasi ini dirancang untuk memudahkan pengelolaan transaksi penjualan, inventaris, dan laporan keuangan secara efisien.",
+    ],
+    proj_tech: [
+      "Figma, PHP, MySQL, Bootstrap",
+    ],
+    skill: [
+      // Bahasa Pemrograman
+      "PHP",
+      "JavaScript",
+      "Python",
+
+      // Frontend & UI
+      "React",
+      "Vite",
+      "Tailwind CSS",
+
+      // Backend & Database
+      "Laravel",
+      "CodeIgniter",
+      "MySQL",
+
+      // Tools
+      "Git",
+      "GitHub",
+      "Figma",
+    ],
   },
   {
     id: "faishal",
@@ -23,7 +79,7 @@ export const teamData = [
     role: "Full Stack Developer",
     about:
       "Mahasiswa Teknik Informatika UNIKOM dengan rekam jejak dalam pengembangan Fullstack Web (Laravel, React, Vite) dan aplikasi mobile Android native (Java). Aktif sebagai pengurus HMIF dan terbiasa merancang arsitektur sistem secara menyeluruh. Saya antusias mengeksplorasi teknologi baru dan memecahkan tantangan logika untuk menciptakan solusi perangkat lunak yang efisien.",
-    photo: fotoDummy,
+    photo: fotoIsal,
     edu: [
       "Rekayasa Perangkat Lunak, SMKN 2 Cimahi",
       "Teknik Informatika, Universitas Komputer Indonesia",
@@ -103,7 +159,7 @@ export const teamData = [
     email: "mzaidanazhari@gmail.com",
     role: "Frontend Developer", 
     about: "Mahasiswa Teknik Informatika di Universitas Komputer Indonesia (UNIKOM) dengan minat besar pada pengembangan perangkat lunak dan teknologi digital. Memiliki rasa ingin tahu yang tinggi, saya selalu terdorong untuk mengeksplorasi hal-hal baru, mendalami teknologi terkini, dan terus mengasah keterampilan teknis maupun nonteknis melalui berbagai proyek praktis. Bagi saya, proses belajar yang konsisten dan kemampuan beradaptasi adalah kunci utama untuk menciptakan solusi teknologi yang bermanfaat dan relevan dengan kebutuhan industri.",
-    photo: fotoDummy, 
+    photo: fotoZai, 
     
     // Riwayat Pendidikan
     edu: [
